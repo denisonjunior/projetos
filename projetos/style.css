@@ -1,0 +1,69 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: rgba(50, 125, 175, 0.367);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    
+}
+
+.cronometro {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    width: 200px;
+    padding: 15px; 
+    margin: auto; 
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(31, 31, 119, 0.337);
+
+    /* código para centralizar */
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    height: 2.5em;
+    width: 5.5em;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.start {
+    background-color: rgb(52, 129, 52);
+    width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.stop {
+    background-color: rgb(92, 89, 89);
+    width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.reset {
+    background-color: rgb(201, 39, 39);
+    width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
